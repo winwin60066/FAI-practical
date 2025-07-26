@@ -26,7 +26,6 @@ class Puzzle:
         self.PreviousNode=[] #to store the expanded nodes
         self.Fringe=[]  #to store the leaf nodes 
         self.Parent = []
-      
         
     #this function is used to shuffle the puzzle when start
     def shuffler(self):
